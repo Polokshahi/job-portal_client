@@ -41,7 +41,7 @@ const JobApply = () => {
         }
 
 
-        axios.post('http://localhost:5000/job-application', jobApplication)
+        axios.post('https://job-portal-server-six-phi.vercel.app/job-application', jobApplication)
             .then((res) => {
                 console.log(res.data);
                 if (res.data.acknowledged) {

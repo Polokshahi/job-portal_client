@@ -14,7 +14,7 @@ const ViewApplications = () => {
             }
 
 
-            axios.patch(`http://localhost:5000/job-application/${id}`, data)
+            axios.patch(`https://job-portal-server-six-phi.vercel.app/job-application/${id}`, data)
             .then((res) =>{
                 console.log(res.data);
                 if(res.data.modifiedCount > 0){

@@ -29,7 +29,7 @@ const SignIn = () => {
                 console.log(user);
 
 
-                axios.post('http://localhost:5000/jwt', user, {
+                axios.post('https://job-portal-server-six-phi.vercel.app/jwt', user, {
                     withCredentials: true})
                 .then((res) =>{
                     console.log(res.data);

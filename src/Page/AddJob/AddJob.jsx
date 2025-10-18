@@ -20,7 +20,7 @@ const AddJob = () => {
         console.log(newJob);
 
 
-        axios.post('http://localhost:5000/jobs', newJob)
+        axios.post('https://job-portal-server-six-phi.vercel.app/jobs', newJob)
          .then(res =>{
             if(res.data.acknowledged){
                 Swal.fire({
