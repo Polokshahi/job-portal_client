@@ -1,12 +1,24 @@
-# React + Vite
+**Job Portal Client – Technology Stack**
+**Frontend**
+Live Link : https://jobportal-project-dbace.web.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React – Core library for building the user interface
+React Router DOM – Client-side routing
 
-Currently, two official plugins are available:
+Build & Development Tools
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Vite – Development server and build tool
+ESLint – Code linting
+PostCSS & Autoprefixer – CSS processing
+Styling & UI Components
+Tailwind CSS – Utility-first CSS framework
+DaisyUI – Tailwind-based UI components
+SweetAlert2 – Alerts and popups
+Utilities & Data Management
+Axios – HTTP client
+LocalForage – Offline storage
+Match-sorter & sort-by – Data sorting/filtering
+JWT – Secure authentication
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
